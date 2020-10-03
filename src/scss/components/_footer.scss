@@ -1,0 +1,50 @@
+.footer {
+  background: #2d3e50;
+  padding: 36px 0;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+  }
+  &__credits {
+    display: flex;
+    & a {
+      color: #ffffff;
+      font-size: 14px;
+      transition: 0.4s all;
+      &:hover {
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+  }
+  &__copyright {
+    a {
+      padding-right: 7px;
+      border-right: 2px solid #ffffff;
+    }
+  }
+  &__ref {
+    a {
+      padding-left: 7px;
+    }
+  }
+  &__upbtn {
+    & button {
+      width: 44px;
+      height: 44px;
+      background: #1bbc9b;
+      transition: 0.4s all;
+      &:hover {
+        background: darken($color: #1bbc9b, $amount: 5%);
+      }
+      & path {
+        fill: #ffffff;
+      }
+      & .svg-inline--fa {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

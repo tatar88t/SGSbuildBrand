@@ -1,0 +1,13 @@
+.btn__main {
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 14px 13px 14px;
+  background: #1bbc9b;
+
+  transition: 0.4s all;
+  &:hover {
+    background: darken($color: #1bbc9b, $amount: 5%);
+  }
+}

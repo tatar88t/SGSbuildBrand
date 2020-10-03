@@ -1,0 +1,39 @@
+.home {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  color: #ffffff;
+  &__title {
+    font-size: 55px;
+    font-weight: 300;
+    & span {
+      font-weight: 700;
+    }
+  }
+  &__descr {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 18px;
+    line-height: 1.333;
+    max-width: 620px;
+    padding: 0 20px;
+    margin: 40px auto 0;
+  }
+  &__btn {
+    margin-top: 45px;
+  }
+  &__btn-down {
+    margin-top: 42px;
+    & button {
+      background: none;
+      & .svg-inline--fa.fa-w-16 {
+        width: 44px;
+        height: 44px;
+        & path {
+          fill: #fff;
+        }
+      }
+    }
+  }
+}
